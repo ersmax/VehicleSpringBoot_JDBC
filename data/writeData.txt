@@ -1,54 +1,65 @@
-### list (4 found) ###
-Car(super=Vehicles(id=1, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500), plate=EL234GX, cc=1200, numberDoors=4)
-Car(super=Vehicles(id=2, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2026, model=panda), plate=FL234GX, cc=1300, numberDoors=4)
-Bike(super=Vehicles(id=3, vehicleType=bike, numberWheels=2, fuelType=petrol, category=road, color=black, brand=Yamaha, productionYear=2025, model=r1), plate=EL22239, cc=900)
-Car(super=Vehicles(id=4, vehicleType=car, numberWheels=4, fuelType=diesel, category=suv, color=red, brand=jeep, productionYear=2022, model=renegade), plate=GH456IJ, cc=1600, numberDoors=5)
+### list (10 found) ###
+Car(super=Vehicles(id=2, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=red, brand=fiat, productionYear=2026, model=panda, numberGears=null), plate=FL234GX, cc=1400, numberDoors=4)
+Bike(super=Vehicles(id=3, vehicleType=bike, numberWheels=2, fuelType=petrol, category=road, color=white, brand=yamaha, productionYear=2025, model=r1, numberGears=null), plate=EL22239, cc=900)
+Bicycle(super=Vehicles(id=5, vehicleType=bicycle, numberWheels=2, fuelType=manual, category=road, color=black, brand=bianchi, productionYear=2025, model=Grizl 5, numberGears=10), suspensions=false, foldable=false)
+Car(super=Vehicles(id=6, vehicleType=car, numberWheels=4, fuelType=diesel, category=suv, color=red, brand=jeep, productionYear=2022, model=renegade, numberGears=null), plate=GH456IJ, cc=1600, numberDoors=5)
+Bicycle(super=Vehicles(id=7, vehicleType=bicycle, numberWheels=2, fuelType=electric, category=citycar, color=blue, brand=brompton, productionYear=2024, model=electric, numberGears=3), suspensions=true, foldable=true)
+Car(super=Vehicles(id=8, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500, numberGears=null), plate=ZL234HX, cc=1200, numberDoors=4)
+Car(super=Vehicles(id=9, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500, numberGears=null), plate=EL234GX, cc=1200, numberDoors=4)
+Bicycle(super=Vehicles(id=10, vehicleType=bicycle, numberWheels=2, fuelType=manual, category=road, color=black, brand=bianchi, productionYear=2025, model=Grizl 5, numberGears=10), suspensions=false, foldable=false)
+Bicycle(super=Vehicles(id=11, vehicleType=bicycle, numberWheels=2, fuelType=manual, category=road, color=black, brand=bianchi, productionYear=2025, model=Grizl 5, numberGears=10), suspensions=false, foldable=false)
+Bicycle(super=Vehicles(id=12, vehicleType=bicycle, numberWheels=2, fuelType=electric, category=citycar, color=blue, brand=brompton, productionYear=2024, model=electric, numberGears=3), suspensions=true, foldable=true)
 
 
-### list (5 found) ###
-Car(super=Vehicles(id=1, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500), plate=EL234GX, cc=1200, numberDoors=4)
-Car(super=Vehicles(id=2, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2026, model=panda), plate=FL234GX, cc=1300, numberDoors=4)
-Bike(super=Vehicles(id=3, vehicleType=bike, numberWheels=2, fuelType=petrol, category=road, color=black, brand=Yamaha, productionYear=2025, model=r1), plate=EL22239, cc=900)
-Car(super=Vehicles(id=4, vehicleType=car, numberWheels=4, fuelType=diesel, category=suv, color=red, brand=jeep, productionYear=2022, model=renegade), plate=GH456IJ, cc=1600, numberDoors=5)
-Car(super=Vehicles(id=5, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500), plate=ZL234HX, cc=1200, numberDoors=4)
+### list (10 found) ###
+Car(super=Vehicles(id=2, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=red, brand=fiat, productionYear=2026, model=panda, numberGears=null), plate=FL234GX, cc=1400, numberDoors=4)
+Bike(super=Vehicles(id=3, vehicleType=bike, numberWheels=2, fuelType=petrol, category=road, color=white, brand=yamaha, productionYear=2025, model=r1, numberGears=null), plate=EL22239, cc=900)
+Bicycle(super=Vehicles(id=5, vehicleType=bicycle, numberWheels=2, fuelType=manual, category=road, color=black, brand=bianchi, productionYear=2025, model=Grizl 5, numberGears=10), suspensions=false, foldable=false)
+Car(super=Vehicles(id=6, vehicleType=car, numberWheels=4, fuelType=diesel, category=suv, color=red, brand=jeep, productionYear=2022, model=renegade, numberGears=null), plate=GH456IJ, cc=1600, numberDoors=5)
+Bicycle(super=Vehicles(id=7, vehicleType=bicycle, numberWheels=2, fuelType=electric, category=citycar, color=blue, brand=brompton, productionYear=2024, model=electric, numberGears=3), suspensions=true, foldable=true)
+Car(super=Vehicles(id=8, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500, numberGears=null), plate=ZL234HX, cc=1200, numberDoors=4)
+Car(super=Vehicles(id=9, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500, numberGears=null), plate=EL234GX, cc=1200, numberDoors=4)
+Bicycle(super=Vehicles(id=10, vehicleType=bicycle, numberWheels=2, fuelType=manual, category=road, color=black, brand=bianchi, productionYear=2025, model=Grizl 5, numberGears=10), suspensions=false, foldable=false)
+Bicycle(super=Vehicles(id=11, vehicleType=bicycle, numberWheels=2, fuelType=manual, category=road, color=black, brand=bianchi, productionYear=2025, model=Grizl 5, numberGears=10), suspensions=false, foldable=false)
+Bicycle(super=Vehicles(id=12, vehicleType=bicycle, numberWheels=2, fuelType=electric, category=citycar, color=blue, brand=brompton, productionYear=2024, model=electric, numberGears=3), suspensions=true, foldable=true)
 
 
-### list,type=car,color=white (3 found) ###
-Car(super=Vehicles(id=1, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500), plate=EL234GX, cc=1200, numberDoors=4)
-Car(super=Vehicles(id=2, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2026, model=panda), plate=FL234GX, cc=1300, numberDoors=4)
-Car(super=Vehicles(id=5, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500), plate=ZL234HX, cc=1200, numberDoors=4)
+### list,type=car,color=white (2 found) ###
+Car(super=Vehicles(id=8, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500, numberGears=null), plate=ZL234HX, cc=1200, numberDoors=4)
+Car(super=Vehicles(id=9, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500, numberGears=null), plate=EL234GX, cc=1200, numberDoors=4)
 
 
 ### list,plate=fl234gx (1 found) ###
-Car(super=Vehicles(id=2, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2026, model=panda), plate=FL234GX, cc=1300, numberDoors=4)
+Car(super=Vehicles(id=2, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=red, brand=fiat, productionYear=2026, model=panda, numberGears=null), plate=FL234GX, cc=1400, numberDoors=4)
 
 
-### list,suspension=no (0 found) ###
+### list,suspension=no (3 found) ###
+Bicycle(super=Vehicles(id=5, vehicleType=bicycle, numberWheels=2, fuelType=manual, category=road, color=black, brand=bianchi, productionYear=2025, model=Grizl 5, numberGears=10), suspensions=false, foldable=false)
+Bicycle(super=Vehicles(id=10, vehicleType=bicycle, numberWheels=2, fuelType=manual, category=road, color=black, brand=bianchi, productionYear=2025, model=Grizl 5, numberGears=10), suspensions=false, foldable=false)
+Bicycle(super=Vehicles(id=11, vehicleType=bicycle, numberWheels=2, fuelType=manual, category=road, color=black, brand=bianchi, productionYear=2025, model=Grizl 5, numberGears=10), suspensions=false, foldable=false)
 
 
 ### list,color=purple (0 found) ###
 
 
-### list,year=abc (0 found) ###
-
-
 ### list,color=white (3 found) ###
-Car(super=Vehicles(id=1, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500), plate=EL234GX, cc=1200, numberDoors=4)
-Car(super=Vehicles(id=2, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2026, model=panda), plate=FL234GX, cc=1300, numberDoors=4)
-Car(super=Vehicles(id=5, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500), plate=ZL234HX, cc=1200, numberDoors=4)
+Bike(super=Vehicles(id=3, vehicleType=bike, numberWheels=2, fuelType=petrol, category=road, color=white, brand=yamaha, productionYear=2025, model=r1, numberGears=null), plate=EL22239, cc=900)
+Car(super=Vehicles(id=8, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500, numberGears=null), plate=ZL234HX, cc=1200, numberDoors=4)
+Car(super=Vehicles(id=9, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500, numberGears=null), plate=EL234GX, cc=1200, numberDoors=4)
 
 
-### list,color=white,brand=fiat (3 found) ###
-Car(super=Vehicles(id=1, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500), plate=EL234GX, cc=1200, numberDoors=4)
-Car(super=Vehicles(id=2, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2026, model=panda), plate=FL234GX, cc=1300, numberDoors=4)
-Car(super=Vehicles(id=5, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500), plate=ZL234HX, cc=1200, numberDoors=4)
+### list,color=white,brand=fiat (2 found) ###
+Car(super=Vehicles(id=8, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500, numberGears=null), plate=ZL234HX, cc=1200, numberDoors=4)
+Car(super=Vehicles(id=9, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500, numberGears=null), plate=EL234GX, cc=1200, numberDoors=4)
 
 
-### list,color=white,model=panda (1 found) ###
-Car(super=Vehicles(id=2, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2026, model=panda), plate=FL234GX, cc=1300, numberDoors=4)
+### list,color=white,model=panda (0 found) ###
 
 
-### list,type=bicycle,color=black (0 found) ###
+### list,type=bicycle,color=black (3 found) ###
+Bicycle(super=Vehicles(id=5, vehicleType=bicycle, numberWheels=2, fuelType=manual, category=road, color=black, brand=bianchi, productionYear=2025, model=Grizl 5, numberGears=10), suspensions=false, foldable=false)
+Bicycle(super=Vehicles(id=10, vehicleType=bicycle, numberWheels=2, fuelType=manual, category=road, color=black, brand=bianchi, productionYear=2025, model=Grizl 5, numberGears=10), suspensions=false, foldable=false)
+Bicycle(super=Vehicles(id=11, vehicleType=bicycle, numberWheels=2, fuelType=manual, category=road, color=black, brand=bianchi, productionYear=2025, model=Grizl 5, numberGears=10), suspensions=false, foldable=false)
 
 
 ### list,color=white,doors=5 (0 found) ###
@@ -57,15 +68,27 @@ Car(super=Vehicles(id=2, vehicleType=car, numberWheels=4, fuelType=petrol, categ
 ### list,color=purple (0 found) ###
 
 
-### list (3 found) ###
-Car(super=Vehicles(id=2, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2026, model=panda), plate=FL234GX, cc=1300, numberDoors=4)
-Bike(super=Vehicles(id=3, vehicleType=bike, numberWheels=2, fuelType=petrol, category=road, color=black, brand=Yamaha, productionYear=2025, model=r1), plate=EL22239, cc=900)
-Car(super=Vehicles(id=5, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500), plate=ZL234HX, cc=1200, numberDoors=4)
+### list (9 found) ###
+Car(super=Vehicles(id=2, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=red, brand=fiat, productionYear=2026, model=panda, numberGears=null), plate=FL234GX, cc=1400, numberDoors=4)
+Bike(super=Vehicles(id=3, vehicleType=bike, numberWheels=2, fuelType=petrol, category=road, color=white, brand=yamaha, productionYear=2025, model=r1, numberGears=null), plate=EL22239, cc=900)
+Bicycle(super=Vehicles(id=5, vehicleType=bicycle, numberWheels=2, fuelType=manual, category=road, color=black, brand=bianchi, productionYear=2025, model=Grizl 5, numberGears=10), suspensions=false, foldable=false)
+Car(super=Vehicles(id=6, vehicleType=car, numberWheels=4, fuelType=diesel, category=suv, color=red, brand=jeep, productionYear=2022, model=renegade, numberGears=null), plate=GH456IJ, cc=1600, numberDoors=5)
+Bicycle(super=Vehicles(id=7, vehicleType=bicycle, numberWheels=2, fuelType=electric, category=citycar, color=blue, brand=brompton, productionYear=2024, model=electric, numberGears=3), suspensions=true, foldable=true)
+Car(super=Vehicles(id=8, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500, numberGears=null), plate=ZL234HX, cc=1200, numberDoors=4)
+Bicycle(super=Vehicles(id=10, vehicleType=bicycle, numberWheels=2, fuelType=manual, category=road, color=black, brand=bianchi, productionYear=2025, model=Grizl 5, numberGears=10), suspensions=false, foldable=false)
+Bicycle(super=Vehicles(id=11, vehicleType=bicycle, numberWheels=2, fuelType=manual, category=road, color=black, brand=bianchi, productionYear=2025, model=Grizl 5, numberGears=10), suspensions=false, foldable=false)
+Bicycle(super=Vehicles(id=12, vehicleType=bicycle, numberWheels=2, fuelType=electric, category=citycar, color=blue, brand=brompton, productionYear=2024, model=electric, numberGears=3), suspensions=true, foldable=true)
 
 
-### list (3 found) ###
-Car(super=Vehicles(id=2, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2026, model=panda), plate=FL234GX, cc=1300, numberDoors=4)
-Bike(super=Vehicles(id=3, vehicleType=bike, numberWheels=2, fuelType=petrol, category=road, color=black, brand=Yamaha, productionYear=2025, model=r1), plate=EL22239, cc=900)
-Car(super=Vehicles(id=5, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500), plate=ZL234HX, cc=1200, numberDoors=4)
+### list (9 found) ###
+Car(super=Vehicles(id=2, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=red, brand=fiat, productionYear=2026, model=panda, numberGears=null), plate=FL234GX, cc=1400, numberDoors=4)
+Bike(super=Vehicles(id=3, vehicleType=bike, numberWheels=2, fuelType=petrol, category=road, color=white, brand=yamaha, productionYear=2025, model=r1, numberGears=null), plate=EL22239, cc=900)
+Bicycle(super=Vehicles(id=5, vehicleType=bicycle, numberWheels=2, fuelType=manual, category=road, color=black, brand=bianchi, productionYear=2025, model=Grizl 5, numberGears=10), suspensions=false, foldable=false)
+Car(super=Vehicles(id=6, vehicleType=car, numberWheels=4, fuelType=diesel, category=suv, color=red, brand=jeep, productionYear=2022, model=renegade, numberGears=null), plate=GH456IJ, cc=1600, numberDoors=5)
+Bicycle(super=Vehicles(id=7, vehicleType=bicycle, numberWheels=2, fuelType=electric, category=citycar, color=blue, brand=brompton, productionYear=2024, model=electric, numberGears=3), suspensions=true, foldable=true)
+Car(super=Vehicles(id=8, vehicleType=car, numberWheels=4, fuelType=petrol, category=road, color=white, brand=fiat, productionYear=2025, model=500, numberGears=null), plate=ZL234HX, cc=1200, numberDoors=4)
+Bicycle(super=Vehicles(id=10, vehicleType=bicycle, numberWheels=2, fuelType=manual, category=road, color=black, brand=bianchi, productionYear=2025, model=Grizl 5, numberGears=10), suspensions=false, foldable=false)
+Bicycle(super=Vehicles(id=11, vehicleType=bicycle, numberWheels=2, fuelType=manual, category=road, color=black, brand=bianchi, productionYear=2025, model=Grizl 5, numberGears=10), suspensions=false, foldable=false)
+Bicycle(super=Vehicles(id=12, vehicleType=bicycle, numberWheels=2, fuelType=electric, category=citycar, color=blue, brand=brompton, productionYear=2024, model=electric, numberGears=3), suspensions=true, foldable=true)
 
 
