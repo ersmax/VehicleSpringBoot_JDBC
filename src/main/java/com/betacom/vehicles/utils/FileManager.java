@@ -38,20 +38,3 @@ public class FileManager {
 	}
 
 }
-
-
-
-
-// old method
-//public static List<String> readFile(String path) throws IOException {
-//	List<String> lines = new ArrayList<>();
-//	String line = null;
-//	try (BufferedReader reader = new BufferedReader(new FileReader(path))) {
-//		line = reader.readLine();
-//		while (line != null) {
-//			lines.add(line);
-//			line = reader.readLine();
-//		}
-//	}
-//	return lines;
-//}

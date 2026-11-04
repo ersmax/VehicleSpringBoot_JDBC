@@ -14,30 +14,30 @@ import lombok.extern.slf4j.Slf4j;
 @SpringBootApplication
 public class VehiclesJdbCspringBootApplication {
 
+	// files 
 	public static final String INPUT_FILE 	= "data/readData.txt";
 	public static final String OUTPUT_FILE 	= "data/writeData.txt";
-	public static final String JSON_FILE	= "data/vehicles.json";
-
-	// dynamic call: the compiler doesn't know this class is used. It's only found at runtime.
-	private static final String PROCESS = "com.betacom.vehicles.process.StartVehicle";
-
-	// inject StartVehicle bean in the field
+	
+	// Spring creates StartVehicle and injects it here
 	@Autowired
 	private StartVehicle startVehicle;
 	
 	public static void main(String[] args) {
 		SpringApplication.run(VehiclesJdbCspringBootApplication.class, args);
 	}
-		
+	
 	@Bean
 	CommandLineRunner startup() {
 		return args -> {
-			log.info("Start jdbc managed by Springboot ***");	
+			log.info("Start jdbc managed by Springboot ***");
 			startVehicle.execute();
 			log.info("End Vehicle");
 		};
 	}
+
+	
 }
+
 
 /* alternative to lambda:
 return new CommandLineRunner() {

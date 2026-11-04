@@ -4,20 +4,18 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import org.springframework.stereotype.Component;
 
+import com.betacom.vehicles.VehiclesJdbCspringBootApplication;
 import com.betacom.vehicles.enums.Operation;
 import com.betacom.vehicles.exception.CustomException;
+import com.betacom.vehicles.services.ListImplementation;
+import com.betacom.vehicles.utils.FileManager;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import com.betacom.vehicles.services.ListImplementation;
-import com.betacom.vehicles.utils.FileManager;
-import com.betacom.vehicles.VehiclesJdbCspringBootApplication;
 
 @Slf4j
 @RequiredArgsConstructor
@@ -80,7 +78,10 @@ public class StartVehicle {
 	}
 	
 	/**
-	 * Dynamic calls to the operation.
+	 * Dynamic calls (no switch for ADD -> addVehicle, UPDATE -> updateVehicle, 
+	 * 								DELETE -> deleteVehicle, LIST -> listVehicles)
+	 * Also dynamic: CarImplementation, BikeImplementation, BicycleImplementation
+	 * 	- for update, delete, insert
 	 * Dispatch to the correct operation handling (etc addVehicle), or handle errors.
 	 * The operation is in ListImplementation
 	 * @param operation			: the operation code in Enum format
@@ -88,7 +89,7 @@ public class StartVehicle {
 	 */
 	private void handleOperation(Operation operation, String[] parametersList) {
 		try {
-			Method method = service.getClass().getMethod(operation.getMethodName(), String[].class); 
+			Method method = service.getClass().getMethod(operation.getMethodName(), String[].class);
 			method.invoke(service, (Object) parametersList);
 		} catch (SecurityException e) {
 			throw new CustomException("Security error: " + e.getMessage());
